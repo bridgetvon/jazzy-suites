@@ -1,5 +1,6 @@
 import Nav from './Nav'
 import Header from './Header'
+import Contact from './Contact'
 
 export default function Layout() {
   return (
@@ -8,6 +9,7 @@ export default function Layout() {
     <div>
         <main>
             <Header />
+            <Contact />
         </main>
     </div>
     </>

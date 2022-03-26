@@ -1,6 +1,7 @@
 .headerdiv {
     padding: 10%;
     text-align: center;
+    background-color: #000;
 }
 
 .main {
@@ -16,4 +17,14 @@
 .description {
     color: #fff;
     font-size: 125%;
+}
+
+.contactBtn {
+    color: rgb(251,237,42);
+    border: 1px solid;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3%;
+    background-color: #000;
 }
