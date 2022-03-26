@@ -4,9 +4,9 @@ import contactStyles from '../styles/Contact.module.css'
 export default function Contact() {
     return (
         <div className={contactStyles.main}>
-        <h1>CONTACT US</h1>
         <section className={contactStyles.contactSection}>
           <div className={contactStyles.contactInfo}> 
+          <h1>CONTACT US</h1>
           <ul>
               <li> 801-325-2105</li>
               <li> bizdev@utahjazz.com </li>
