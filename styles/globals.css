@@ -13,4 +13,14 @@ a {
 
 * {
   box-sizing: border-box;
+  background-color: #000;
+  
+}
+
+@font-face {
+  font-family: 'wt_jazzbold_extended';
+  src: url('https://www.nba.com/resources/static/team/v2/jazz/1_jazz-extended-webfont.woff2') format('woff2'),
+      url('https://www.nba.com/resources/static/team/v2/jazz/1_jazz-extended-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
