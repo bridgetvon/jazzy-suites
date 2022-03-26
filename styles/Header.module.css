@@ -1,0 +1,19 @@
+.headerdiv {
+    padding: 10%;
+    text-align: center;
+}
+
+.main {
+    color: #fff;
+    font-size: 400%;
+}
+
+.secondary {
+    color: rgb(251,237,42);
+    font-size: 250%;
+}
+
+.description {
+    color: #fff;
+    font-size: 125%;
+}
