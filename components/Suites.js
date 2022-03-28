@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Suites() {
     return (
         <div id="mainDiv" className='bg-white p-15 flex'>
-            <div className="text-white bg-black ml-20 mr-4 my-5">
+            <div className="text-white bg-black ml-40 mr-4 my-5">
                 <div className="max-w-sm overflow-hidden shadow-lg">
                     <div>
                         <Image
