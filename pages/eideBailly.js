@@ -2,6 +2,7 @@ import Nav from '../components/Nav'
 import Contact from '../components/Contact'
 import Tickets from '../components/Tickets'
 import Image from 'next/image'
+import Info from '../components/Info'
 
 export default function EideBailly() {
     return (
@@ -25,6 +26,7 @@ export default function EideBailly() {
             layout='fill'
             />
             </div>
+            <Info />
             <Tickets />
             <Contact />
         </div>
