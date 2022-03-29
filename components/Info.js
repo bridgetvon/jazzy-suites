@@ -101,12 +101,15 @@ export default function Info() {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
                         </svg>
                         <h2>VIP parking in the Park Place lot located right next to Vivent Smart-Home Arena</h2>
+                        <button className="bg-yellow text-black rounded p-1 mt-2">View Parking Map</button>
                     </div>
                     <div className="text-xs font-light">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                         </svg>
                         <h2>Easy check-in: Talk to the host at any suite level (level 4) entrance to check-in</h2>
+                        <button className="bg-yellow text-black rounded p-1 mt-2">View Check-in Locations</button>
+
                     </div>
 
                 </div>
@@ -116,9 +119,9 @@ export default function Info() {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                         Possible Uses</h1>
-                    <div className="grid grid-cols-5 gap-5 p-3">
+                    <div className="grid grid-cols-5 gap-5 p-3 items-center">
                         <div>
-                            <h2 className="border-b-2">Business Development</h2>
+                            <h2 className="border-b-2 break-words">Business Development</h2>
                             <p className="text-xs font-light p-4 mb-2">
                                 Business Development
                                 Client Entertainment
@@ -127,7 +130,7 @@ export default function Info() {
                             </p>
                         </div>
                         <div>
-                            <h2 className="border-b-2">Client Retention</h2>
+                            <h2 className="border-b-2 break-words">Client Retention</h2>
                             <p className="text-xs font-light p-4 mb-2">
                                 Renew Accounts
                                 Reduce Attrition
@@ -137,9 +140,9 @@ export default function Info() {
                             </p>
                         </div>
                         <div>
-                            <h2 className="border-b-2">Employee Usage</h2>
+                            <h2 className="border-b-2 break-words">Employee Usage</h2>
 
-                            <p className="text-xs font-light p-4 mb-2">Employee Recruitment & Retention
+                            <p className="text-xs font-light p-2">Employee Recruitment & Retention
                                 Employee Benefit Programs
                                 Employee Incentives
                                 Internal Contests
@@ -150,7 +153,7 @@ export default function Info() {
 
                         </div>
                         <div>
-                            <h2 className="border-b-2">Executive Utilization</h2>
+                            <h2 className="border-b-2 break-words">Executive Utilization</h2>
                             <p className="text-xs font-light p-4 mb-2">
                                 Executive Team Building
                                 Quarterly Meetings
@@ -159,8 +162,8 @@ export default function Info() {
                             </p>
                         </div>
                         <div>
-                            <h2 className="border-b-2 font-light">Community Relations</h2>
-                            <p className="text-xs font-light p-4 mb-2">
+                            <h2 className="border-b-2 font-light break-words">Community Relations</h2>
+                            <p className="text-xs font-light p-6 mb-2">
                                 Complement Current Charitable Programs
                                 Donate for Auctions or Raffles
                                 Host 501(c)(3) Organizations
