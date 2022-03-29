@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jazzy Suites! :wave:
 
-## Getting Started
+  ### By bridgetvon * [Email me](bridget.schaefer31@gmail.com) * 
 
-First, run the development server:
+  ## Table of contents 📚
+  * [Description](#Description)
+  * [User Story](#User-story) 
+  * [Installation Instructions](#installation-Instructions)
+  * [Contributing](#Contributing)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+  # Visual
+ <img src='./public/desktop.png'>
+ <img src='./public/mobile.png'>
+ 
+ 
+  # Description
+    A mock website of the homepage of the premium suites for the Utah Jazz and a page of the Eide Bailly Suite page for the Utah Jazz. Built with Next.js and tailwinds.css
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  ## User Story :book:
+  ```
+  AS a developer
+  I WANT to mock a website 
+  SO THAT I can learn new technologies and broaden my skill-set
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+  ```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+  ## Installation Instructions :hammer_and_wrench:
+  No installation, simply navigate to the deployed application
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+  ## Deployed 
+   https://jazzy-suites-7a5218dtm-bridgetvon.vercel.app/
 
-## Learn More
+  ## License :credit_card:
+  * License Type: N/A
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ ## Contributing 
+ Bridget Schaefer 
+    
+ [Click to view my GitHub Profile!](https://github.com/bridgetvon) :skier:
