@@ -11,9 +11,8 @@ export default function Info() {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
                         <h1>Location</h1>
-
                         <h2 className="text-xs font-light">Suite level (Level 4)</h2>
-                        <button className="bg-yellow text-black rounded mt-4 p-1"> View Arena Map</button>
+                        <button className="bg-yellow text-black rounded mt-4 p-1 text-xs"> View Arena Map</button>
                     </div>
                     <div className="text-lg">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline text-yellow" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
