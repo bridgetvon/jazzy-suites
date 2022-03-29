@@ -22,7 +22,7 @@ export default function Nav() {
                 <div className="hidden w-full lg:inline-flex lg:flex-grow lg:w-auto text-yellow">
                     <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
                         <Image
-                            src='/../public/images/jazzlogo.png'
+                            src='/jazzlogo.png'
                             alt='jazz logo'
                             width={50}
                             height={50}

@@ -9,7 +9,7 @@ export default function LuxurySuites() {
             <div className="flex-wrap grid grid-cols-2 gap-4">
                 <div>
                     <Image
-                        src='/../public/images/eideBaillysuitelevel.jpg'
+                        src='/eideBaillysuitelevel.jpg'
                         alt='Eide Bailey Suite Level'
                         width={650}
                         height={350}
@@ -18,7 +18,7 @@ export default function LuxurySuites() {
                 </div>
                 <div>
                     <Image
-                        src='/../public/images/loge-boxes.jpg'
+                        src='/loge-boxes.jpg'
                         alt='Loge boxes'
                         width={650}
                         height={350}
@@ -27,7 +27,7 @@ export default function LuxurySuites() {
                 </div>
                 <div>
                     <Image
-                        src='/../public/images/level-three-udo-lounge.jpg'
+                        src='/level-three-udo-lounge.jpg'
                         alt='Level three udo lounge'
                         width={650}
                         height={350}
@@ -36,7 +36,7 @@ export default function LuxurySuites() {
                 </div>
                 <div>
                     <Image
-                        src='/../public/images/courtside-suites.jpg'
+                        src='/courtside-suites.jpg'
                         alt='court-side suites'
                         width={650}
                         height={350}

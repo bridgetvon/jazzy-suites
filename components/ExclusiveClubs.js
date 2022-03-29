@@ -7,7 +7,7 @@ export default function ExclusiveClubs() {
             <div className="flex-wrap columns-2 gap-4">
                 <div className="flex-wrap">
                     <Image
-                        src='/../public/images/toyota-club.jpg'
+                        src='/toyota-club.jpg'
                         alt='Toyota Club'
                         width={650}
                         height={350}
@@ -16,7 +16,7 @@ export default function ExclusiveClubs() {
                 </div>
                 <div>
                     <Image
-                        src='/../public/images/WFC-insurance-club.jpg'
+                        src='/WFC-insurance-club.jpg'
                         alt='WFC insurance club overlooking the courts'
                         width={650}
                         height={350}
@@ -25,7 +25,7 @@ export default function ExclusiveClubs() {
                 </div>
                 <div>
                     <Image
-                        src='/../public/images/courtside-club.jpg'
+                        src='/courtside-club.jpg'
                         alt='The court side club'
                         width={650}
                         height={350}
@@ -35,7 +35,7 @@ export default function ExclusiveClubs() {
                 </div>
                 <div>
                     <Image
-                        src='/../public/images/eide-bailly-club.jpg'
+                        src='/eide-bailly-club.jpg'
                         alt='The eide bailly club dining hall'
                         width={650}
                         height={350}
@@ -45,7 +45,7 @@ export default function ExclusiveClubs() {
                 </div>
                 <div>
                     <Image
-                        src='/../public/images/lexus-club.jpg'
+                        src='/lexus-club.jpg'
                         alt='The Lexus Club dining hall'
                         width={650}
                         height={350}
@@ -55,7 +55,7 @@ export default function ExclusiveClubs() {
                 </div>
                 <div>
                     <Image
-                        src='/../public/images/legends-club.jpg'
+                        src='/legends-club.jpg'
                         alt='Legends club'
                         width={650}
                         height={350}

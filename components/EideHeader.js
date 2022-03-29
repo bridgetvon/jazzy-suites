@@ -16,7 +16,7 @@ export default function EideHeader() {
             </div>
             <div className='object-center relative w-full h-full'>
                 <Image
-                    src='/../public/images/courtside-suites.jpg'
+                    src='/courtside-suites.jpg'
                     alt='The Eide Bailly suite Level'
                     width={950}
                     height={455}

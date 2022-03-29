@@ -18,7 +18,7 @@ export default function Tickets() {
             </div>
             <div className='p-8 bg-grey'>
             <Image
-                    src='/../public/images/JAZ2122_Premium_EBS5.jpg'
+                    src='/JAZ2122_Premium_EBS5.jpg'
                     alt='video'
                     width={400}
                     height={300}
