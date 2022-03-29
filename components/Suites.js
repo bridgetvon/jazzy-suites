@@ -8,7 +8,7 @@ export default function Suites() {
                 <div className="max-w-sm overflow-hidden shadow-lg">
                     <div>
                         <Image
-                            src='/../public/images/luxury-suites.jpg'
+                            src='/luxury-suites.jpg'
                             alt='Luxury suite picture'
                             width={500}
                             height={220}
@@ -25,7 +25,7 @@ export default function Suites() {
                 <div className="max-w-sm overflow-hidden shadow-lg">
                     <div>
                         <Image
-                            src='/../public/images/exclusive-clubs.jpg'
+                            src='/exclusive-clubs.jpg'
                             alt='Luxury suite picture'
                             width={500}
                             height={220}
