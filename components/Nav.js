@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Nav() {
     const [open, setOpen] = useState(false)
     return (
-        <nav className='flex bg-black items-center flex-wrap inline border-1 border-b-white-500'>
+        <nav className='flex bg-black items-center flex-wrap inline border-2'>
             <MobileNav open={open} setOpen={setOpen} />
             {/* <div className="flex lg:inline-flex lg:w-auto w-full px-3 py-2"> */}
 

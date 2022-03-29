@@ -14,7 +14,7 @@ export default function Tickets() {
                         <li> - Allows for a convenient transfer process—you can transfer your tickets with the touch of a button.</li>
                     </ul>
                     If you have questions or concerns about digital tickets, please contact your account representative.</p>
-                <button className='bg-yellow p-3 mt-3 border-1 border-black-500'>LEARN MORE ABOUT DIGITAL TICKETS</button>
+                <button className='bg-yellow p-3 mt-3 border-2 rounded border-black-500'>LEARN MORE ABOUT DIGITAL TICKETS &#8680;</button>
             </div>
             <div className='p-8 bg-grey'>
             <Image

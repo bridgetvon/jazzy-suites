@@ -14,7 +14,7 @@ export default function Suites() {
                             height={220}
                         />
                         <div className="font-bold text-xl text-yellow m-2">Luxury Suites</div>
-                        <p className="text-gray-700 text-base p-3">
+                        <p className="text-grey-700 text-base p-3">
                             Your suite can enhance your corporate profile and give you an advantage over your competitors. It offers the chance to communicate your message in a luxurious setting while making entertaining as easy as it is elegant. Take advantage of the most unique and exciting way to entertain in Utah by becoming a Vivint Arena luxury suite holder.
                         </p>
                         <button className='text-yellow p-5'>Learn More</button>
