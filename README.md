@@ -28,7 +28,7 @@
   No installation, simply navigate to the deployed application
 
   ## Deployed 
-   https://jazzy-suites-7a5218dtm-bridgetvon.vercel.app/
+   https://jazzy-suites.vercel.app/
 
   ## License :credit_card:
   * License Type: N/A
