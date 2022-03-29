@@ -1,17 +1,22 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Tickets from '../components/Tickets';
-import Layout from '../components/Layout';
-import Contact from '../components/Contact';
+import Tickets from '../components/Tickets'
+import Suites from '../components/Suites'
+import LuxurySuites from '../components/LuxurySuites'
+import ExclusiveClubs from '../components/ExclusiveClubs'
+import Header from '../components/Header'
+import Contact from '../components/Contact'
+import Layout from '../components/Layout'
+import Nav from '../components/Nav'
 
 export default function Home() {
   return (
     <div>
-      <Layout>
+      <Nav />
+      <Header />
+      <Suites />
       <Tickets />
+      <LuxurySuites />
+      <ExclusiveClubs />
       <Contact />
-      </Layout>
     </div>
   )
 }

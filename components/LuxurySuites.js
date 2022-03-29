@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 export default function LuxurySuites() {
@@ -13,6 +14,7 @@ export default function LuxurySuites() {
                         width={650}
                         height={350}
                     />
+                    <Link className='text-yellow' href='eideBailly'>Eide Bailly Suite Level</Link>
                 </div>
                 <div>
                     <Image
