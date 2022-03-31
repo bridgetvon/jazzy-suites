@@ -5,13 +5,13 @@ import Image from 'next/image'
 export default function Nav() {
     const [open, setOpen] = useState(false)
     return (
-        <nav className='flex bg-black items-center flex-wrap inline border-2'>
+        <nav className='flex bg-black items-center flex-wrap inline border-2 text-sm'>
             <MobileNav open={open} setOpen={setOpen} />
             {/* <div className="flex lg:inline-flex lg:w-auto w-full px-3 py-2"> */}
 
             {/* </div> */}
             <div className="w-11/12 p-3 flex justify-end items-center">
-                <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden" onClick={() => {
+                <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center lg:hidden" onClick={() => {
                     setOpen(!open)
                 }}>
                     {/* hamburger button */}
@@ -20,26 +20,26 @@ export default function Nav() {
                     <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
                 <div className="hidden w-full lg:inline-flex lg:flex-grow lg:w-auto text-yellow">
-                    <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
+                    <div className='lg:inline-flex lg:flex-row lg:ml-48 lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto border-b-2 border-white'>
                         <Image
                             src='/jazzlogo.png'
                             alt='jazz logo'
                             width={50}
                             height={50}
                         />
-                        <span className='text-white pr-20 pl-5 tracking-wide flex-start'>UTAH JAZZ PREMIUM SEATING</span>
+                        <span className='text-white pr-20 pl-5 mr-40 tracking-wide justify-start'>UTAH JAZZ PREMIUM SEATING</span>
                         <Link href='/'>
-                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 items-center justify-center hover:bg-green-600 hover:text-white '>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 justify-end hover:text-white '>
                                 Luxury Suites
                             </a>
                         </Link>
                         <Link href='/'>
-                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 items-center justify-center hover:bg-green-600 hover:text-white'>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 justify-end hover:text-white'>
                                 Exclusive Clubs
                             </a>
                         </Link>
                         <Link href='/'>
-                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 items-center justify-center hover:bg-green-600 hover:text-white'>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 justify-end hover:text-white'>
                                 Contact us
                             </a>
                         </Link>

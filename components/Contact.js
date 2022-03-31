@@ -44,11 +44,12 @@ export default function Contact() {
                             />
                         </div>
                         <div>
-                            <label htmlFor="email">Options</label>
-                            <input className='block rounded-sm w-full p-1 mt-1 border-2 border-black-500'
-                                type="options"
-                                name="email"
-                            />
+                            <label>Options</label>
+                            <select className='block rounded-sm w-full p-1 mt-1 border-2 border-black-500 appearance-none'>
+                               <option>tickets</option>
+                               <option>pricing</option>
+                               <option>scheduling</option>
+                            </select>
                         </div>
                         <div>
                             <label htmlFor="message">Message:</label>

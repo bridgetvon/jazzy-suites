@@ -10,7 +10,6 @@ export default function EideBailly() {
     return (
         <div>
             <Nav />
-
            <EideHeader />
             <Info />
             <Buffet />

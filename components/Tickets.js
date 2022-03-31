@@ -4,7 +4,7 @@ export default function Tickets() {
 
     return (
         <div className='grid grid-cols-2 mt-8'>
-            <div className='bg-grey p-9'>
+            <div className='bg-grey p-9 text-sm'>
                 <h1 className='mb-5 text-2xl font-bold'>Digital tickets</h1>
                 <p>All tickets will be digital and accessible in the Utah Jazz + Vivint Arena App. Printed tickets will no longer be an option.
                     <p>This move to digital-only has been made for several reasons:</p>
@@ -14,7 +14,7 @@ export default function Tickets() {
                         <li> - Allows for a convenient transfer process—you can transfer your tickets with the touch of a button.</li>
                     </ul>
                     If you have questions or concerns about digital tickets, please contact your account representative.</p>
-                <button className='bg-yellow p-3 mt-3 border-2 rounded border-black-500'>LEARN MORE ABOUT DIGITAL TICKETS &#8680;</button>
+                <button className='bg-yellow text-xs p-3 mt-3 border-2 rounded border-black-500'>LEARN MORE ABOUT DIGITAL TICKETS &#8680;</button>
             </div>
             <div className='p-8 bg-grey'>
             <Image
