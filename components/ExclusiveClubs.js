@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 export default function ExclusiveClubs() {
     return (
-        <div className='main p-10 bg-black'>
+        <div className='main p-10 bg-black' id='exclusive-clubs'>
             <h1 className='text-yellow mb-5 font-bold text-xl'>EXCLUSIVE CLUBS</h1>
-            <div className="flex-wrap gap-4 lg:columns-2">
+            <div className="flex-wrap gap-4 lg:columns-2 md:cols-2">
                 <div className="flex-wrap relative">
                     <Image
                         src='/toyota-club.jpg'

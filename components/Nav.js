@@ -21,24 +21,27 @@ export default function Nav() {
                 </div>
                 <div className="hidden w-full lg:inline-flex lg:flex-grow lg:w-auto text-yellow">
                     <div className='lg:inline-flex lg:flex-row lg:ml-48 lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto border-b-2 border-white'>
+                        <Link href='/' passHref>
                         <Image
                             src='/jazzlogo.png'
                             alt='jazz logo'
                             width={50}
                             height={50}
                         />
+                        </Link>
+                        
                         <span className='text-white pr-20 pl-5 mr-40 tracking-wide justify-start'>UTAH JAZZ PREMIUM SEATING</span>
-                        <Link href='/'>
+                        <Link href='/#luxury-suites'>
                             <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 justify-end hover:text-white '>
                                 Luxury Suites
                             </a>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#exclusive-clubs'>
                             <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 justify-end hover:text-white'>
                                 Exclusive Clubs
                             </a>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#contact'>
                             <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 justify-end hover:text-white'>
                                 Contact us
                             </a>
@@ -55,9 +58,11 @@ function MobileNav({ open, setOpen }) {
     return (
         <div className={`absolute top-12 left-0 h-screen w-screen bg-black transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
             <div className="flex flex-col items-center text-white">
+             
                 <a className="text-xl font-medium my-4" href="/about" onClick={() => setTimeout(() => { setOpen(!open) }, 100)}>
                     Luxury Suites
                 </a>
+                
                 <a className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => { setOpen(!open) }, 100)}>
                     Exclusive Clubs
                 </a>

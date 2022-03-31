@@ -17,12 +17,10 @@ export default function Tickets() {
                 <button className='bg-yellow text-xs p-3 mt-3 border-2 rounded border-black-500'>LEARN MORE ABOUT DIGITAL TICKETS &#8680;</button>
             </div>
             <div className='p-8 bg-grey'>
-            <Image
-                    src='/JAZ2122_Premium_EBS5.jpg'
-                    alt='video'
-                    width={400}
-                    height={300}
-                />
+            <video autoPlay loop style={{ width: '500px', height: '500px' }}>
+        <source src="/tickets.mp4" />
+      </video>
+          
             </div>
 
         </div>

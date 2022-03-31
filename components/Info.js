@@ -119,7 +119,7 @@ export default function Info() {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                         Possible Uses</h1>
-                    <div className="grid lg:grid-cols-5 gap-5 p-3 items-center">
+                    <div className="grid lg:grid-cols-5 md:grid-cols-5 gap-5 p-3 items-center">
                         <div>
                             <h2 className="border-b-2 break-words">Business Development</h2>
                             <p className="text-xs font-light p-4 mb-2">

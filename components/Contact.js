@@ -2,7 +2,7 @@
 
 export default function Contact() {
     return (
-        <div className='bg-darkGray text-white'>
+        <div className='bg-darkGray text-white'id='contact'>
             <section className='flex flex-wrap p-1'>
                 <div className='w-2/5'>
                     <h1 className='text-2xl font-bold p-8'>CONTACT US</h1>

@@ -5,13 +5,13 @@ export default function EideHeader() {
         <>
             <div className='flex flex-row items-center'>
                 <header className='font-bold text-3xl m-6 text-center mr-40'>EIDE BAILLY SUITE LEVEL</header>
-                <div className='flex'>
-                    <button className='flex mr-20 border-2 rounded p-1 text-xs font-bold'>
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <div className='flex flex-wrap'>
+                    <button className='flex p-1 m-2 border-2 rounded p-1 text-xs font-bold'>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                         </svg>
                         Download Info</button>
-                    <button className=' flex border-2 rounded p-1 text-xs font-bold'>Contact us</button>
+                     <button className='flex border-2 rounded p-1 m-2 text-xs font-bold'>Contact us</button>
                 </div>
             </div>
             <div className='object-center relative w-full h-full'>
