@@ -17,7 +17,7 @@ export default function Tickets() {
                 <button className='bg-yellow text-xs lg:p-3 mt-10 border-2 rounded border-black-500'>LEARN MORE ABOUT DIGITAL TICKETS &#8680;</button>
             </div>
             <div className='p-1 lg:p-6 bg-grey'>
-            <video loop style={{ width: '500px', height: '500px' }}>
+            <video autoPlay loop style={{ width: '500px', height: '500px' }}>
         <source src="/tickets.mp4" />
       </video>
           
