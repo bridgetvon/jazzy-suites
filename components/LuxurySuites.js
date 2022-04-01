@@ -7,7 +7,7 @@ export default function LuxurySuites() {
         <div className='main p-10 bg-black' id='luxury-suites'>
             <h1 className='text-yellow mb-5 font-bold text-xl'>LUXURY SUITES</h1>
             <div className="flex flex-wrap grid lg:grid-cols-2 md:grid-cols-2 gap-4">
-                <div className='relative brightness-50'>
+                <div className='relative brightness-50 cursor-pointer'>
                     <Link href='eideBailly' passHref>
                     <Image
                         src='/eideBaillysuitelevel.jpg'
