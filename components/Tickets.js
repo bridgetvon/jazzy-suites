@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Tickets() {
 
     return (
-        <div className='grid grid-cols-2 mt-8'>
+        <div className='grid lg:grid-cols-2 mt-8'>
             <div className='bg-grey p-9 text-sm'>
                 <h1 className='mb-5 text-2xl font-bold'>Digital tickets</h1>
                 <p>All tickets will be digital and accessible in the Utah Jazz + Vivint Arena App. Printed tickets will no longer be an option.
@@ -16,8 +16,8 @@ export default function Tickets() {
                     If you have questions or concerns about digital tickets, please contact your account representative.</p>
                 <button className='bg-yellow text-xs lg:p-3 mt-10 border-2 rounded border-black-500'>LEARN MORE ABOUT DIGITAL TICKETS &#8680;</button>
             </div>
-            <div className='p-8 bg-grey'>
-            <video autoPlay loop style={{ width: '500px', height: '500px' }}>
+            <div className='p-1 lg:p-6 bg-grey'>
+            <video loop style={{ width: '500px', height: '500px' }}>
         <source src="/tickets.mp4" />
       </video>
           
