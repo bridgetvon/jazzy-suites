@@ -1,16 +1,17 @@
 import Nav from './Nav'
 import Contact from './Contact'
-
+import Meta from './Meta'
 
 export default function Layout({children}) {
     return (
         <>
             <div>
-                <main>
+                <Meta /> 
                 <Nav />
-                 
-                    <Contact />
+                <main>
+                    {children}
                 </main>
+                    <Contact />
             </div>
         </>
     )
