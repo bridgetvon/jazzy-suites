@@ -17,7 +17,6 @@ export default function LuxurySuites() {
                         layout='responsive'
                     />
                     </Link>
-                
                     <div className='inline-block text-white'>EIDE BAILLY SUITE LEVEL</div>
                 </div>
                 <div>
@@ -27,7 +26,6 @@ export default function LuxurySuites() {
                         width={650}
                         height={350}
                         layout='responsive'
-
                     />
                     <div className='inline-block text-white'>LOGE BOXES</div>
                 </div>
@@ -38,7 +36,6 @@ export default function LuxurySuites() {
                         width={650}
                         height={350}
                         layout='responsive'
-
                     />
                     <div className='inline-block text-white'>LEVEL THREE UDO LOUNGE</div>
                 </div>
@@ -49,7 +46,6 @@ export default function LuxurySuites() {
                         width={650}
                         height={350}
                         layout='responsive'
-
                     />
                     <div className='inline-block text-white'>COURTSIDE SUITES</div>
                 </div>

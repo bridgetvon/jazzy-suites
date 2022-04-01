@@ -2,21 +2,21 @@
 
 export default function Contact() {
     return (
-        <div className='bg-darkGray text-white'id='contact'>
+        <div className='bg-darkGray text-white' id='contact'>
             <section className='flex flex-wrap p-1'>
                 <div className='w-2/5'>
                     <h1 className='text-2xl font-bold p-8'>CONTACT US</h1>
                     <ul>
-                        <li className='p-4'>
+                        <li className='lg:p-4'>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="yellow" strokeWidth="2">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                             </svg>
                             801-325-2105</li>
-                        <li className='p-4'> 
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="yellow" strokeWidth="2">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-</svg>
-                        bizdev@utahjazz.com </li>
+                        <li className='lg:p-4'>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="yellow" strokeWidth="2">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+                            </svg>
+                            bizdev@utahjazz.com </li>
                         <li className='w-30 text-xs p-4'> With options like single-game tickets, suite rentals and special group rates, experiencing Utah Jazz basketball has never been more convenient! Just let us know what you’re interested in and we can customize a package to fit your group and budget.</li>
                     </ul>
                 </div>
@@ -46,9 +46,9 @@ export default function Contact() {
                         <div>
                             <label>Options</label>
                             <select className='block rounded-sm w-full p-1 mt-1 border-2 border-black-500 appearance-none'>
-                               <option>tickets</option>
-                               <option>pricing</option>
-                               <option>scheduling</option>
+                                <option>tickets</option>
+                                <option>pricing</option>
+                                <option>scheduling</option>
                             </select>
                         </div>
                         <div>

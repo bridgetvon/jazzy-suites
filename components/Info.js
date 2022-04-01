@@ -4,7 +4,7 @@ export default function Info() {
         <>
             <div className="bg-black text-white p-10 mb-10">
                 <div className="grid lg:grid-cols-4 gap-3 font-bold border-b-2 pb-5">
-                    <h1 className="text-2xl ml-6">About</h1>
+                    <h1 className="text-2xl ml-6 font-bold">ABOUT</h1>
                     <div className="text-lg">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline text-yellow" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                             <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -30,7 +30,7 @@ export default function Info() {
                     </div>
                 </div>
                 <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-4 font-bold flex flex-wrap p-5 border-b-2">
-                    <h1>Benefits & Amenities</h1>
+                    <h1 className="text-2xl ml-6 font-bold">BENEFITS & AMENITIES</h1>
                     <div>
                         <ul className="text-xs font-light">
                             <li>
@@ -94,7 +94,7 @@ export default function Info() {
                     </div>
                 </div>
                 <div className="grid lg:grid-cols-3 gap-5 border-b-2 p-5">
-                    <h1>Parking and Check-In</h1>
+                    <h1 className="text-2xl ml-6 font-bold">PARKING & CHECK-IN</h1>
                     <div className="text-xs font-light">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                             <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -114,15 +114,15 @@ export default function Info() {
 
                 </div>
                 <div>
-                    <h1 className="text-xl font-bold">
+                    <h1 className="text-2xl ml-6 font-bold my-7">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow inline mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
-                        Possible Uses</h1>
-                    <div className="grid lg:grid-cols-5 md:grid-cols-5 gap-5 p-3 items-center">
+                        POSSIBLE USES</h1>
+                    <div className="grid lg:grid-cols-5 md:grid-cols-5 gap-5 p-3">
                         <div>
-                            <h2 className="border-b-2 break-words">Business Development</h2>
-                            <p className="text-xs font-light p-4 mb-2">
+                            <h2 className="border-b-2 break-words font-bold">Business Development</h2>
+                            <p className="text-xs font-light p-4 m-2">
                                 Business Development
                                 Client Entertainment
                                 Relationship Development
@@ -130,8 +130,8 @@ export default function Info() {
                             </p>
                         </div>
                         <div>
-                            <h2 className="border-b-2 break-words">Client Retention</h2>
-                            <p className="text-xs font-light p-4 mb-2">
+                            <h2 className="border-b-2 break-words font-bold">Client Retention</h2>
+                            <p className="text-xs font-light p-4 m-2">
                                 Renew Accounts
                                 Reduce Attrition
                                 Relationship Development
@@ -140,9 +140,8 @@ export default function Info() {
                             </p>
                         </div>
                         <div>
-                            <h2 className="border-b-2 break-words">Employee Usage</h2>
-
-                            <p className="text-xs font-light p-2">Employee Recruitment & Retention
+                            <h2 className="border-b-2 break-words font-bold">Employee Usage</h2>
+                            <p className="text-xs font-light p-2 m-2">Employee Recruitment & Retention
                                 Employee Benefit Programs
                                 Employee Incentives
                                 Internal Contests
@@ -153,8 +152,8 @@ export default function Info() {
 
                         </div>
                         <div>
-                            <h2 className="border-b-2 break-words">Executive Utilization</h2>
-                            <p className="text-xs font-light p-4 mb-2">
+                            <h2 className="border-b-2 break-words font-bold">Executive Utilization</h2>
+                            <p className="text-xs font-light p-4 m-2">
                                 Executive Team Building
                                 Quarterly Meetings
                                 Investors & Shareholders
@@ -162,8 +161,8 @@ export default function Info() {
                             </p>
                         </div>
                         <div>
-                            <h2 className="border-b-2 font-light break-words">Community Relations</h2>
-                            <p className="text-xs font-light p-6 mb-2">
+                            <h2 className="border-b-2 break-words font-bold">Community Relations</h2>
+                            <p className="text-xs font-light p-6 m-2">
                                 Complement Current Charitable Programs
                                 Donate for Auctions or Raffles
                                 Host 501(c)(3) Organizations
