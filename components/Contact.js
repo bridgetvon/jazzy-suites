@@ -23,7 +23,7 @@ export default function Contact() {
                 <div className='w-3/5 p-2'>
                     <form className='w-full'>
                         <div>
-                            <label htmlFor="name">Name</label>
+                            <label htmlFor="name">Name:</label>
                             <input className='block rounded-sm w-full p-1 mt-1 border-2 border-black-500'
                                 type="text"
                                 name="name"
@@ -44,7 +44,7 @@ export default function Contact() {
                             />
                         </div>
                         <div>
-                            <label>Options</label>
+                            <label>Options:</label>
                             <select className='block rounded-sm w-full p-1 mt-1 border-2 border-black-500 appearance-none'>
                                 <option>tickets</option>
                                 <option>pricing</option>
